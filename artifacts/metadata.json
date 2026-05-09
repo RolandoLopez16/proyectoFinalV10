@@ -1,0 +1,227 @@
+{
+  "features": [
+    "EQUIPO",
+    "MARCA",
+    "ZONA",
+    "CONTRATISTA",
+    "ESPECIE",
+    "TURNO",
+    "SUELO",
+    "PENDIENTE PROMEDIO FINCA",
+    "TOTAL DE ARBOLES",
+    "DIAMETRO",
+    "T PROGRAMADO",
+    "HORAS DE OTRAS PARADA",
+    "clima_temp_promedio_dia_c",
+    "clima_temp_min_dia_c",
+    "clima_temp_max_dia_c",
+    "clima_precipitacion_dia_mm",
+    "clima_viento_promedio_dia_kmh"
+  ],
+  "target": "M3/HORA",
+  "variables_categoricas": [
+    "EQUIPO",
+    "MARCA",
+    "ZONA",
+    "CONTRATISTA",
+    "ESPECIE",
+    "TURNO",
+    "SUELO"
+  ],
+  "variables_numericas": [
+    "PENDIENTE PROMEDIO FINCA",
+    "TOTAL DE ARBOLES",
+    "DIAMETRO",
+    "T PROGRAMADO",
+    "HORAS DE OTRAS PARADA",
+    "clima_temp_promedio_dia_c",
+    "clima_temp_min_dia_c",
+    "clima_temp_max_dia_c",
+    "clima_precipitacion_dia_mm",
+    "clima_viento_promedio_dia_kmh"
+  ],
+  "opciones_categoricas": {
+    "EQUIPO": [
+      "HVJD-1",
+      "HVJD-2",
+      "HVJD-3",
+      "HVJD-4",
+      "HVJD-5",
+      "HVPO-1",
+      "HVPO-2",
+      "HVPO-3",
+      "HVPO-4",
+      "HVPO-5",
+      "OTROS"
+    ],
+    "MARCA": [
+      "JOHN DEER",
+      "OTROS",
+      "PONSSE"
+    ],
+    "ZONA": [
+      "CENTRO",
+      "NORTE",
+      "OTROS",
+      "SUR"
+    ],
+    "CONTRATISTA": [
+      "AMBAR",
+      "EFAGRAM",
+      "GREEN FOREST",
+      "OTROS"
+    ],
+    "ESPECIE": [
+      "EUCALIPTO GRANDIS",
+      "EUCALIPTO UROGRANDIS",
+      "EUCALYPTUS GRANDIS",
+      "EUCALYPTUS UROGRANDIS",
+      "OTROS",
+      "PINO KESIYA",
+      "PINO MAXIMINO",
+      "PINO PÁTULA",
+      "PINO TECUNUMANII",
+      "PINUS MAXIMINOI",
+      "PINUS TECUNUMANII"
+    ],
+    "TURNO": [
+      "OTROS",
+      "TURNO 1",
+      "TURNO 2",
+      "TURNO 3"
+    ],
+    "SUELO": [
+      "HUMEDO",
+      "OTROS",
+      "SECO"
+    ]
+  },
+  "numeric_defaults": {
+    "PENDIENTE PROMEDIO FINCA": 19.234154182394327,
+    "TOTAL DE ARBOLES": 234.0,
+    "DIAMETRO": 20.0,
+    "T PROGRAMADO": 8.0,
+    "HORAS DE OTRAS PARADA": 1.6600000000000001,
+    "clima_temp_promedio_dia_c": 16.6,
+    "clima_temp_min_dia_c": 13.9,
+    "clima_temp_max_dia_c": 21.6,
+    "clima_precipitacion_dia_mm": 11.4,
+    "clima_viento_promedio_dia_kmh": 7.6
+  },
+  "numeric_min": {
+    "PENDIENTE PROMEDIO FINCA": 14.458335518038645,
+    "TOTAL DE ARBOLES": 23.0,
+    "DIAMETRO": 0.188911,
+    "T PROGRAMADO": 6.3,
+    "HORAS DE OTRAS PARADA": 0.33,
+    "clima_temp_promedio_dia_c": 12.8,
+    "clima_temp_min_dia_c": 10.44537,
+    "clima_temp_max_dia_c": 14.9,
+    "clima_precipitacion_dia_mm": 0.1,
+    "clima_viento_promedio_dia_kmh": 5.0
+  },
+  "numeric_max": {
+    "PENDIENTE PROMEDIO FINCA": 35.08677720238823,
+    "TOTAL DE ARBOLES": 865.9324999999993,
+    "DIAMETRO": 288.1089,
+    "T PROGRAMADO": 12.0,
+    "HORAS DE OTRAS PARADA": 7.332209000000001,
+    "clima_temp_promedio_dia_c": 25.0,
+    "clima_temp_min_dia_c": 20.1,
+    "clima_temp_max_dia_c": 33.0,
+    "clima_precipitacion_dia_mm": 35.6,
+    "clima_viento_promedio_dia_kmh": 13.8
+  },
+  "limites_winsor": {
+    "PENDIENTE PROMEDIO FINCA": [
+      14.458335518038645,
+      35.08677720238823
+    ],
+    "TOTAL DE ARBOLES": [
+      23.0,
+      869.1499999999994
+    ],
+    "DIAMETRO": [
+      0.1867,
+      288.33000000000004
+    ],
+    "T PROGRAMADO": [
+      6.3,
+      12.0
+    ],
+    "HORAS DE OTRAS PARADA": [
+      0.33,
+      7.334700000000001
+    ],
+    "clima_temp_promedio_dia_c": [
+      12.8,
+      25.0
+    ],
+    "clima_temp_min_dia_c": [
+      10.271,
+      20.1
+    ],
+    "clima_temp_max_dia_c": [
+      14.9,
+      33.0
+    ],
+    "clima_precipitacion_dia_mm": [
+      0.1,
+      35.6
+    ],
+    "clima_viento_promedio_dia_kmh": [
+      5.0,
+      13.8
+    ]
+  },
+  "equipo_marca_moda": {
+    "HVJD-1": "JOHN DEER",
+    "HVJD-2": "JOHN DEER",
+    "HVJD-3": "JOHN DEER",
+    "HVJD-4": "JOHN DEER",
+    "HVJD-5": "JOHN DEER",
+    "HVPO-1": "PONSSE",
+    "HVPO-2": "PONSSE",
+    "HVPO-3": "PONSSE",
+    "HVPO-4": "PONSSE",
+    "HVPO-5": "PONSSE"
+  },
+  "umbrales_productividad": {
+    "baja": 11.149600000000001,
+    "media": 16.7694
+  },
+  "clima_defaults": {
+    "SECO": {
+      "clima_temp_promedio_dia_c": 16.6,
+      "clima_temp_min_dia_c": 13.9,
+      "clima_temp_max_dia_c": 21.6,
+      "clima_precipitacion_dia_mm": 11.4,
+      "clima_viento_promedio_dia_kmh": 7.6
+    },
+    "LLUVIOSO": {
+      "clima_temp_promedio_dia_c": 16.6,
+      "clima_temp_min_dia_c": 13.9,
+      "clima_temp_max_dia_c": 21.6,
+      "clima_precipitacion_dia_mm": 11.4,
+      "clima_viento_promedio_dia_kmh": 7.6
+    }
+  },
+  "metricas": {
+    "entrenamiento": {
+      "MAE": 80.58832683536552,
+      "RMSE": 657.8154346155619,
+      "R2": 0.02053955814876518
+    },
+    "prueba": {
+      "MAE": 65.77594896177695,
+      "RMSE": 113.38525454439143,
+      "R2": -164.12828932237068
+    },
+    "validacion_cruzada": {
+      "MAE_promedio": 66.36019458036759,
+      "RMSE_promedio": 276.9805228315951,
+      "R2_promedio": -67.27844469195183
+    }
+  },
+  "nota": "Modelo de regresión lineal para estimar productividad M3/HORA. Las predicciones son apoyo analítico, no causalidad directa."
+}
